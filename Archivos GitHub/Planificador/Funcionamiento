@@ -1,1 +1,8 @@
-
+El segundo trabajo del ramo consistió en crear un planificador de turnos usando un calendario interactivo. Para explicar su funcionamiento, se organizaron los pasos de la siguiente forma:
+Importación de bibliotecas: Se importaron tkinter para la interfaz, calendar para generar calendarios y datetime para manejar fechas.
+Configuración de ventana e inicialización: Se configuró la ventana principal, se crearon los frames donde se ordena el calendario y se inicializaron las variables necesarias para manejar meses, días y turnos.
+Definición de funciones:
+1.Mostrar calendario: Se borra el calendario anterior, se genera el nuevo mes con bucles for y se crean los días como botones. Si existen turnos, se colorean automáticamente.
+2.Aplicar turnos: Se calcula el ciclo de trabajo y descanso, se identifica el día del año donde inicia el mes y se asignan colores según corresponda.
+3.Turnos mensuales: Se toman los días seleccionados como inicio y fin, se calculan los días laborales y se vuelve a dibujar el calendario con los turnos aplicados.
+4.Seleccionar día: Se registran los días marcados y, cuando hay dos, se genera el turno mensual.
