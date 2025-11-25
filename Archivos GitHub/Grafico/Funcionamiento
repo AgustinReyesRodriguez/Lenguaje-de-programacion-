@@ -1,0 +1,4 @@
+El tercer trabajo del ramo consistió en crear un gráfico que mostrara la distribución de la población por zonas en Rusia. Para explicar su funcionamiento, se organizó de la siguiente manera:
+Importación de bibliotecas: Se importaron matplotlib.pyplot para crear y mostrar gráficos, y numpy (aunque no se usa directamente) como apoyo para posibles cálculos.
+Inicialización de la clase y variables: Se creó una clase llamada GraficoPoblacionRusia, donde en el constructor se definió un diccionario que contiene las zonas del país (Norte, Centro y Sur) junto con sus valores de población.
+Función para crear el gráfico: Dentro del método crear_grafico, primero se genera una figura y un eje. Luego, se separan las claves (zonas) y los valores (población) en listas y se usa la función pie() para crear un gráfico circular, mostrando los porcentajes correspondientes a cada zona. También se agrega un título y se ajusta la visualización para que el círculo no quede deformado.
